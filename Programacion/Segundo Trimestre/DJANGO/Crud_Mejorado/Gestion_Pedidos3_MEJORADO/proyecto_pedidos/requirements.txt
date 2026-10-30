@@ -1,0 +1,9 @@
+# Dependencias del proyecto — instalar con:
+# pip install -r requirements.txt
+
+Django>=4.1
+mysqlclient           # Conector MySQL para Django
+djangorestframework   # Para la API REST
+djangorestframework-simplejwt  # JWT (autenticación de la API)
+reportlab             # Generación de PDF
+openpyxl              # Generación de Excel (.xlsx)

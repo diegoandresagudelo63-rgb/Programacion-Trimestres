@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="contenedor">
+
+    <div class="card">
+
+      <h1> Subir Producto</h1>
+
+      <form
+        action="/subir"
+        method="post"
+        enctype="multipart/form-data"
+      >
+
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Nombre del producto"
+          required
+        >
+
+        <input
+          type="number"
+          step="0.01"
+          name="precio"
+          placeholder="Precio"
+          required
+        >
+
+        <input
+          type="file"
+          name="archivo"
+          required
+        >
+
+        <button type="submit">
+          Guardar Producto
+        </button>
+
+      </form>
+
+      <a href="/listado" class="btn-listado">
+        Ver Productos
+      </a>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

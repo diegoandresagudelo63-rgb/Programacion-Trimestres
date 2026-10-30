@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>API Productos</title>
+
+</head>
+<body>
+
+  <div class="container">
+    <h1> Gestión de Productos</h1>
+
+    <div class="section">
+      <button onclick="obtenerProductos()">Ver productos</button>
+      <button onclick="crearProducto()">Crear producto</button>
+    </div>
+
+    <div class="section">
+      <h2> Actualizar producto</h2>
+      <input type="number" id="idActualizar" placeholder="ID">
+      <button onclick="actualizarProducto()">Actualizar</button>
+    </div>
+
+    <div class="section">
+      <h2> Eliminar producto</h2>
+      <input type="number" id="idEliminar" placeholder="ID">
+      <button onclick="eliminarProducto()">Eliminar</button>
+    </div>
+
+    <div class="section">
+      <h2> Resultado</h2>
+      <pre id="resultado"></pre>
+    </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+
+</body>
+</html>

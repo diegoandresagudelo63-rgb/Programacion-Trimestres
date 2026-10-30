@@ -1,0 +1,39 @@
+@model IEnumerable<BibliotecaEF24.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Listado de Usuarios";
+}
+
+<h1>Listado de Usuarios</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Crear Nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+            <th>@Html.DisplayNameFor(model => model.TarjetaBiblioteca)</th>
+            <th>Cantidad de Préstamos</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                <td>@Html.DisplayFor(modelItem => item.TarjetaBiblioteca)</td>
+
+                <!-- Corrección: Mostramos cuántos préstamos tiene usando .Count -->
+                <td>@(item.Prestamos != null ? item.Prestamos.Count : 0)</td>
+
+                <td>
+                    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@item.Id">Editar</a> |
+                    <a asp-action="Details" class="btn btn-info" asp-route-id="@item.Id">Detalles</a> |
+                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

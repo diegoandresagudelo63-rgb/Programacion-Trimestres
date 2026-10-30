@@ -1,0 +1,59 @@
+{% extends 'pedidos/base.html' %}
+{% block titulo %}Productos{% endblock %}
+
+{% block contenido %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h3>🛒 Productos</h3>
+    <a href="{% url 'crear_producto' %}" class="btn btn-primary">➕ Nuevo Producto</a>
+</div>
+
+<div class="card shadow">
+    <div class="card-body">
+        <table class="table table-hover align-middle text-center">
+            <thead class="table-dark">
+                <tr><th>ID</th><th>Nombre</th><th>Precio</th><th>Stock</th><th>Acciones</th></tr>
+            </thead>
+            <tbody>
+                {% for p in productos %}
+                <tr>
+                    <td>{{ p.id }}</td>
+                    <td>{{ p.nombre }}</td>
+                    <td>${{ p.precio }}</td>
+                    <!-- Resalta en rojo si el stock es bajo -->
+                    <td class="{% if p.stock == 0 %}text-danger fw-bold{% endif %}">{{ p.stock }}</td>
+                    <td>
+                        <a href="{% url 'editar_producto' p.id %}" class="btn btn-warning btn-sm" onclick="return confirmarEditar(event, this.href)">✏️ Editar</a>
+                        <a href="{% url 'eliminar_producto' p.id %}" class="btn btn-danger btn-sm" onclick="return confirmarEliminar(event, this.href)">🗑️ Eliminar</a>
+                    </td>
+                </tr>
+                {% empty %}
+                <tr><td colspan="5" class="text-muted">No hay productos.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <!-- Paginación -->
+        <nav><ul class="pagination justify-content-center">
+            {% if productos.has_previous %}<li class="page-item"><a class="page-link" href="?page={{ productos.previous_page_number }}">Anterior</a></li>{% endif %}
+            <li class="page-item disabled"><span class="page-link">{{ productos.number }} / {{ productos.paginator.num_pages }}</span></li>
+            {% if productos.has_next %}<li class="page-item"><a class="page-link" href="?page={{ productos.next_page_number }}">Siguiente</a></li>{% endif %}
+        </ul></nav>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function confirmarEditar(e, url) {
+    e.preventDefault();
+    Swal.fire({title:'¿Editar?',icon:'question',showCancelButton:true,confirmButtonText:'Sí'})
+    .then(r => { if(r.isConfirmed) window.location=url; });
+    return false;
+}
+function confirmarEliminar(e, url) {
+    e.preventDefault();
+    Swal.fire({title:'¿Eliminar producto?',text:'No se puede deshacer.',icon:'warning',showCancelButton:true,confirmButtonColor:'#d33',confirmButtonText:'Sí, eliminar'})
+    .then(r => { if(r.isConfirmed) window.location=url; });
+    return false;
+}
+</script>
+{% endblock %}

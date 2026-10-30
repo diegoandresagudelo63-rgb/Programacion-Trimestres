@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Formulario</h1>
+     <!-- formulario que se guarde en localstorage -->
+    <form id="formulario">
+        <input type="text" id="nombre" required placeholder="Nombre">
+        <input type="text" id="apellido" required placeholder="Apellido">
+        <input type="phone" id="telefono" required placeholder="Telefono">
+        <button type="submit">Guardar</button>
+
+    </form>
+    </div>
+
+
+    <script>
+        const formulario = document.getElementById('formulario');
+        formulario.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const nombre = document.getElementById('nombre').value;
+            const apellido = document.getElementById('apellido').value;
+            const telefono = document.getElementById('telefono').value;
+            localStorage.setItem('nombre', nombre);
+            localStorage.setItem('apellido', apellido);
+            localStorage.setItem('telefono', telefono);
+            
+            alert('Datos guardados en localStorage');
+        });
+    </script>
+
+    
+</body>
+</html>

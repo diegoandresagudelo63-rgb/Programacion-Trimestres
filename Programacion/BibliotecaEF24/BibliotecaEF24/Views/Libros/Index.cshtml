@@ -1,0 +1,56 @@
+@model IEnumerable<BibliotecaEF24.Models.Libro>
+
+@{
+    ViewData["Title"] = "Listado de Libros";
+}
+
+<h1>Listado de Libros</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Crear Nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                Autor
+            </th>                                   
+            <th>
+                Categorías
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Titulo)
+                </td>
+                <td>
+                    <!-- Aquí está la corrección: apuntamos a item.Autor.Nombre -->
+                    @Html.DisplayFor(modelItem => item.Autor.Nombre)
+                </td>
+                <td>
+                    @if(item.Categorias != null && item.Categorias.Any())
+                    {
+                        @string.Join(", ", item.Categorias.Select(c => c.Nombre))
+                    }
+                    else
+                    {
+                        <span>Sin categorías</span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@item.Id">Editar</a> |
+                    <a asp-action="Details" class="btn btn-info" asp-route-id="@item.Id">Detalles</a> |
+                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

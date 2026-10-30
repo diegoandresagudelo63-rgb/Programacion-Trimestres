@@ -1,0 +1,41 @@
+@model IEnumerable<BibliotecaEF24.Models.Prestamo>
+
+@{
+    ViewData["Title"] = "Listado de Préstamos";
+}
+
+<h1>Listado de Préstamos</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Crear Nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FechaPrestamo)</th>
+            <th>@Html.DisplayNameFor(model => model.FechaDevolucion)</th>
+            <th>Usuario</th>
+            <th>Libro</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.FechaPrestamo)</td>
+                <td>@Html.DisplayFor(modelItem => item.FechaDevolucion)</td>
+
+                <!-- Corrección: Apuntamos a las propiedades del objeto -->
+                <td>@Html.DisplayFor(modelItem => item.Usuario.Nombre)</td>
+                <td>@Html.DisplayFor(modelItem => item.Libro.Titulo)</td>
+
+                <td>
+                    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@item.Id">Editar</a> |
+                    <a asp-action="Details" class="btn btn-info" asp-route-id="@item.Id">Detalles</a> |
+                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

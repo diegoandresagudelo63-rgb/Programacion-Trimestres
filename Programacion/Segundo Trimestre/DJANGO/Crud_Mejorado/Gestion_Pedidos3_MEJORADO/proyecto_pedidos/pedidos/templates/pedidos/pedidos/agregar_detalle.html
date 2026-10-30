@@ -1,0 +1,25 @@
+{% extends 'pedidos/base.html' %}
+{% block titulo %}Agregar Producto al Pedido #{{ pedido.id }}{% endblock %}
+
+{% block contenido %}
+<div class="card shadow mx-auto" style="max-width:500px">
+    <div class="card-body">
+        <h4>➕ Agregar Producto al Pedido #{{ pedido.id }}</h4>
+        <p class="text-muted">Cliente: {{ pedido.cliente.nombre }}</p>
+        <form method="post">
+            {% csrf_token %}
+            {% for field in form %}
+            <div class="mb-3">
+                <label class="form-label fw-bold">{{ field.label }}</label>
+                {{ field }}
+                {% if field.errors %}<div class="text-danger small">{{ field.errors }}</div>{% endif %}
+            </div>
+            {% endfor %}
+            <!-- Nota: el subtotal se calcula automáticamente en el modelo -->
+            <p class="text-info small">💡 El subtotal se calculará automáticamente (cantidad × precio).</p>
+            <button type="submit" class="btn btn-success">Agregar</button>
+            <a href="{% url 'ver_pedido' pedido.id %}" class="btn btn-secondary">Cancelar</a>
+        </form>
+    </div>
+</div>
+{% endblock %}

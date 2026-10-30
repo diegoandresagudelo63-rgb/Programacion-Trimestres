@@ -1,0 +1,46 @@
+{% extends 'pedidos/base.html' %}
+{% block titulo %}{{ titulo }}{% endblock %}
+
+{% block contenido %}
+<div class="card shadow mx-auto" style="max-width:600px">
+    <div class="card-body">
+        <h4 class="mb-4">{{ titulo }}</h4>
+        <form method="post">
+            {% csrf_token %}
+            {% for field in form %}
+            <div class="mb-3">
+                <label class="form-label fw-bold">{{ field.label }}</label>
+                {{ field }}
+                {% if field.errors %}
+                    <div class="text-danger small">{{ field.errors }}</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+            <!-- SweetAlert2 en el botón guardar -->
+            <button type="submit" class="btn btn-primary" id="btnGuardar">💾 Guardar</button>
+            <a href="{% url 'listar_clientes' %}" class="btn btn-secondary">Cancelar</a>
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Confirmar antes de guardar con SweetAlert2
+document.getElementById('btnGuardar').addEventListener('click', function(e){
+    e.preventDefault();
+    Swal.fire({
+        title: '¿Confirmar?',
+        text: '¿Deseas guardar los cambios?',
+        icon: 'question',
+        showCancelButton: true,
+        confirmButtonText: 'Sí, guardar',
+        cancelButtonText: 'Cancelar'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            this.closest('form').submit();
+        }
+    });
+});
+</script>
+{% endblock %}

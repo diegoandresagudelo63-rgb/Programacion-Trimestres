@@ -1,0 +1,73 @@
+{% extends 'pedidos/base.html' %}
+{% block titulo %}Pedidos{% endblock %}
+
+{% block contenido %}
+<div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+    <h3>📋 Pedidos</h3>
+    <div>
+        <!-- Botones de exportación -->
+        <a href="{% url 'exportar_pdf' %}" class="btn btn-danger btn-sm">📄 Exportar PDF</a>
+        <a href="{% url 'exportar_excel' %}" class="btn btn-success btn-sm">📊 Exportar Excel</a>
+        <a href="{% url 'crear_pedido' %}" class="btn btn-primary btn-sm">➕ Nuevo Pedido</a>
+    </div>
+</div>
+
+<div class="card shadow">
+    <div class="card-body">
+        <table class="table table-hover align-middle text-center">
+            <thead class="table-dark">
+                <tr><th>ID</th><th>Cliente</th><th>Fecha</th><th>Estado</th><th>Acciones</th></tr>
+            </thead>
+            <tbody>
+                {% for pedido in pedidos %}
+                <tr>
+                    <td class="fw-bold">{{ pedido.id }}</td>
+                    <td>{{ pedido.cliente.nombre }}</td>
+                    <td>{{ pedido.fecha|date:"d/m/Y" }}</td>
+                    <td>
+                        <!-- Badge de color según estado -->
+                        {% if pedido.estado == 'pendiente' %}
+                            <span class="badge bg-warning text-dark">Pendiente</span>
+                        {% elif pedido.estado == 'enviado' %}
+                            <span class="badge bg-info">Enviado</span>
+                        {% else %}
+                            <span class="badge bg-success">Entregado</span>
+                        {% endif %}
+                    </td>
+                    <td>
+                        <a href="{% url 'ver_pedido' pedido.id %}" class="btn btn-info btn-sm">👁️ Ver</a>
+                        <a href="{% url 'editar_pedido' pedido.id %}" class="btn btn-warning btn-sm" onclick="return confirmarEditar(event, this.href)">✏️ Editar</a>
+                        <a href="{% url 'eliminar_pedido' pedido.id %}" class="btn btn-danger btn-sm" onclick="return confirmarEliminar(event, this.href)">🗑️ Eliminar</a>
+                    </td>
+                </tr>
+                {% empty %}
+                <tr><td colspan="5" class="text-muted py-3">No hay pedidos registrados.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <!-- Paginación — muestra 10 por página -->
+        <nav><ul class="pagination justify-content-center">
+            {% if pedidos.has_previous %}<li class="page-item"><a class="page-link" href="?page={{ pedidos.previous_page_number }}">Anterior</a></li>{% endif %}
+            <li class="page-item disabled"><span class="page-link">Página {{ pedidos.number }} de {{ pedidos.paginator.num_pages }}</span></li>
+            {% if pedidos.has_next %}<li class="page-item"><a class="page-link" href="?page={{ pedidos.next_page_number }}">Siguiente</a></li>{% endif %}
+        </ul></nav>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function confirmarEditar(e, url) {
+    e.preventDefault();
+    Swal.fire({title:'¿Editar pedido?',icon:'question',showCancelButton:true,confirmButtonText:'Sí, editar'})
+    .then(r => { if(r.isConfirmed) window.location=url; });
+    return false;
+}
+function confirmarEliminar(e, url) {
+    e.preventDefault();
+    Swal.fire({title:'¿Eliminar pedido?',text:'Si tiene productos asociados no se podrá eliminar.',icon:'warning',showCancelButton:true,confirmButtonColor:'#d33',confirmButtonText:'Sí, eliminar'})
+    .then(r => { if(r.isConfirmed) window.location=url; });
+    return false;
+}
+</script>
+{% endblock %}

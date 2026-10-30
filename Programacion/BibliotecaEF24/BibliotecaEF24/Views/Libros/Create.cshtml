@@ -1,0 +1,47 @@
+@model BibliotecaEF24.Models.Libro
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Libro</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Titulo" class="control-label">Título</label>
+                <input asp-for="Titulo" class="form-control" />
+                <span asp-validation-for="Titulo" class="text-danger"></span>
+            </div>
+
+            <!-- Aquí está tu lista desplegable conectada al AutorId -->
+            <div class="form-group mb-3">
+                <label asp-for="AutorId" class="control-label">Autor</label>
+                <select asp-for="AutorId" class="form-select" asp-items="ViewBag.AutorId">
+                    <option value="">-- Seleccione un Autor --</option>
+                </select>
+                <span asp-validation-for="AutorId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label">Categorías</label>
+                <select name="selectedCategorias" class="form-select" multiple="multiple" asp-items="ViewBag.Categorias">
+                </select>
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Crear Libro" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver a la lista</a>
+</div>

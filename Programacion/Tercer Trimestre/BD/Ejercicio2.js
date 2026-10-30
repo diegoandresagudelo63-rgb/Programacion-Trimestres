@@ -1,0 +1,6 @@
+const mat = require('./matematica')
+console.log('La suma de 2+2=' + mat.sumar(2, 2))
+console.log('La resta de 5-3=' + mat.restar(5, 3))
+console.log('La multiplicacion de dos numeros 4*3=' +mat.multiplicar(4, 3))
+console.log('La division de 6/7=' + mat.dividir(6, 7))
+console.log(mostrarErrorDvision)

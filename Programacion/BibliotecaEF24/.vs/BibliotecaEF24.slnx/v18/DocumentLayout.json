@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|c:\\users\\diego\\onedrive\\desktop\\bibliotecaef24\\bibliotecaef24\\controllers\\librosapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|solutionrelative:bibliotecaef24\\controllers\\librosapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|c:\\users\\diego\\onedrive\\desktop\\bibliotecaef24\\bibliotecaef24\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|solutionrelative:bibliotecaef24\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|c:\\users\\diego\\onedrive\\desktop\\bibliotecaef24\\bibliotecaef24\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|solutionrelative:bibliotecaef24\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|c:\\users\\diego\\onedrive\\desktop\\bibliotecaef24\\bibliotecaef24\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|solutionrelative:bibliotecaef24\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|c:\\users\\diego\\onedrive\\desktop\\bibliotecaef24\\bibliotecaef24\\views\\libros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|solutionrelative:bibliotecaef24\\views\\libros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|c:\\users\\diego\\onedrive\\desktop\\bibliotecaef24\\bibliotecaef24\\views\\libros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|solutionrelative:bibliotecaef24\\views\\libros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|c:\\users\\diego\\onedrive\\desktop\\bibliotecaef24\\bibliotecaef24\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|solutionrelative:bibliotecaef24\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|c:\\users\\diego\\onedrive\\desktop\\bibliotecaef24\\bibliotecaef24\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|solutionrelative:bibliotecaef24\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|c:\\users\\diego\\onedrive\\desktop\\bibliotecaef24\\bibliotecaef24\\views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|solutionrelative:bibliotecaef24\\views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|c:\\users\\diego\\onedrive\\desktop\\bibliotecaef24\\bibliotecaef24\\views\\autores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|solutionrelative:bibliotecaef24\\views\\autores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|c:\\users\\diego\\onedrive\\desktop\\bibliotecaef24\\bibliotecaef24\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|solutionrelative:bibliotecaef24\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|c:\\users\\diego\\onedrive\\desktop\\bibliotecaef24\\bibliotecaef24\\views\\autores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|solutionrelative:bibliotecaef24\\views\\autores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|c:\\users\\diego\\onedrive\\desktop\\bibliotecaef24\\bibliotecaef24\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|solutionrelative:bibliotecaef24\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|c:\\users\\diego\\onedrive\\desktop\\bibliotecaef24\\bibliotecaef24\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|solutionrelative:bibliotecaef24\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|c:\\users\\diego\\onedrive\\desktop\\bibliotecaef24\\bibliotecaef24\\views\\prestamos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC426F45-54BA-3D72-19CE-15CFEC104168}|BibliotecaEF24\\BibliotecaEF24.csproj|solutionrelative:bibliotecaef24\\views\\prestamos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BibliotecaEF24\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BibliotecaEF24\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T13:24:49.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Program.cs",
+              "RelativeDocumentMoniker": "BibliotecaEF24\\Program.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Program.cs",
+              "RelativeToolTip": "BibliotecaEF24\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T13:18:55.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibrosApiController.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Controllers\\LibrosApiController.cs",
+              "RelativeDocumentMoniker": "BibliotecaEF24\\Controllers\\LibrosApiController.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Controllers\\LibrosApiController.cs",
+              "RelativeToolTip": "BibliotecaEF24\\Controllers\\LibrosApiController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T11:59:53.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "BibliotecaEF24\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "BibliotecaEF24\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T11:57:06.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Views\\Libros\\Create.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaEF24\\Views\\Libros\\Create.cshtml",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Views\\Libros\\Create.cshtml",
+              "RelativeToolTip": "BibliotecaEF24\\Views\\Libros\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-10T13:31:34.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Views\\Libros\\Index.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaEF24\\Views\\Libros\\Index.cshtml",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Views\\Libros\\Index.cshtml",
+              "RelativeToolTip": "BibliotecaEF24\\Views\\Libros\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-10T13:31:47.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Views\\Autores\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaEF24\\Views\\Autores\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Views\\Autores\\Edit.cshtml",
+              "RelativeToolTip": "BibliotecaEF24\\Views\\Autores\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-10T13:25:41.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "BibliotecaEF24\\Controllers\\LibrosController.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "BibliotecaEF24\\Controllers\\LibrosController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T12:02:02.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "BibliotecaEF24\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "BibliotecaEF24\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T11:57:44.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Views\\Autores\\Index.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaEF24\\Views\\Autores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Views\\Autores\\Index.cshtml",
+              "RelativeToolTip": "BibliotecaEF24\\Views\\Autores\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-03T14:44:19.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PrestamosController.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Controllers\\PrestamosController.cs",
+              "RelativeDocumentMoniker": "BibliotecaEF24\\Controllers\\PrestamosController.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Controllers\\PrestamosController.cs",
+              "RelativeToolTip": "BibliotecaEF24\\Controllers\\PrestamosController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAswFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T11:58:07.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AutoresController.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Controllers\\AutoresController.cs",
+              "RelativeDocumentMoniker": "BibliotecaEF24\\Controllers\\AutoresController.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Controllers\\AutoresController.cs",
+              "RelativeToolTip": "BibliotecaEF24\\Controllers\\AutoresController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T12:01:09.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Views\\Categorias\\Index.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaEF24\\Views\\Categorias\\Index.cshtml",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Views\\Categorias\\Index.cshtml",
+              "RelativeToolTip": "BibliotecaEF24\\Views\\Categorias\\Index.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-03T14:41:17.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaEF24\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "BibliotecaEF24\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-03T14:41:05.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Views\\Prestamos\\Index.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaEF24\\Views\\Prestamos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\BibliotecaEF24\\BibliotecaEF24\\Views\\Prestamos\\Index.cshtml",
+              "RelativeToolTip": "BibliotecaEF24\\Views\\Prestamos\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-03T14:40:57.979Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
